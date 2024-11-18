@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "E.N.C.H.A.N.T _A.E.T.S.A.A.A.V _Monitor", "E.N.C.H.A.N.T _A.E.T.S.A.A.A.V _Monitor\E.N.C.H.A.N.T _A.E.T.S.A.A.A.V _Monitor.pyproj", "{6EA6A3E1-9515-4B3F-95E6-CDCD435E9511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA6A3E1-9515-4B3F-95E6-CDCD435E9511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA6A3E1-9515-4B3F-95E6-CDCD435E9511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {756F3626-3417-4723-B530-010FB057E273}
+	EndGlobalSection
+EndGlobal

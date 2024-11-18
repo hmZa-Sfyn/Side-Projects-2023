@@ -1,0 +1,111 @@
+can you make a sql like programminglanuage based on syntax like the following:
+
+```SuperSql
+
+SCRIPTO ssql ^0.1.6
+
+Script main(MyCon: SqlConnection) {
+
+	TABLE_NAME: str = "Employees"; 
+	COLUMN_NAME: str = "dob";
+	SEARCH_VALUE: str = "1966";
+
+	Results: Data = (
+		Query(MyCon) {
+	
+			// THIS IS TO FIND OUR MOST OLD AND RETIRED EMPLOYEES
+			SELECT * FROM $TABLE_NAME WHERE $COLUMN_NAME IS (<= $SEARCH_VALUE);
+
+		}
+	);
+
+	Display(Results);
+
+}
+
+```
+
+
+Angular:
+
+ng new <project-name>: Create a new Angular project.
+ng generate component <component-name>: Generate a new component.
+ng serve: Run the development server.
+ng build: Build the application for production.
+React:
+
+npx create-react-app <project-name>: Create a new React project.
+npm start or yarn start: Run the development server.
+npm run build or yarn build: Build the application for production.
+Node.js:
+
+node <filename.js>: Execute a JavaScript file with Node.js.
+npm init: Initialize a new Node.js project.
+npm install <package-name> or npm i <package-name>: Install a Node.js package.
+npm start: Run the main script defined in package.json.
+npm test: Run tests defined in the project.
+npm run <script-name>: Run a custom script defined in package.json.
+Go (Go Programming Language):
+
+go build: Compile packages and dependencies.
+go run <filename.go>: Compile and run Go source files.
+go install: Compile and install packages and dependencies.
+go get <package-name>: Download and install packages and dependencies.
+go test: Run tests associated with the current package.
+npm (Node Package Manager):
+
+npm install <package-name> or npm i <package-name>: Install a package locally.
+npm install -g <package-name>: Install a package globally.
+npm uninstall <package-name>: Uninstall a package.
+npm update <package-name>: Update a package.
+npm search <keyword>: Search for packages.
+npm init: Initialize a new package.json file for a project.
+npx:
+
+npx <command>: Execute a command from an npm package without installing it globally.
+npx create-react-app <project-name>: Create a new React project without the need to install create-react-app globally.
+
+Git:
+
+git clone <repository-url>: Clone a repository from a remote server.
+git init: Initialize a new Git repository in the current directory.
+git add <file>: Add a file to the staging area.
+git commit -m "Commit message": Commit changes to the repository.
+git push: Push commits to a remote repository.
+git pull: Fetch and merge changes from a remote repository.
+git branch: List branches in the repository.
+git checkout <branch-name>: Switch to a different branch.
+git merge <branch-name>: Merge changes from another branch into the current branch.
+Docker:
+
+docker build -t <image-name> .: Build a Docker image from a Dockerfile.
+docker run <image-name>: Run a Docker container from an image.
+docker ps: List running containers.
+docker stop <container-id>: Stop a running container.
+docker rm <container-id>: Remove a container.
+docker images: List Docker images.
+docker rmi <image-id>: Remove a Docker image.
+docker-compose up: Start services defined in a Docker Compose file.
+Webpack:
+
+webpack: Run webpack to bundle JavaScript files.
+webpack-dev-server: Run webpack in development mode with a development server.
+webpack --config <config-file>: Specify a webpack configuration file.
+webpack --watch: Watch files for changes and automatically rebuild.
+Python (pip):
+
+pip install <package-name>: Install a Python package.
+pip uninstall <package-name>: Uninstall a Python package.
+pip freeze: List installed packages and their versions.
+pip search <package-name>: Search for packages on PyPI.
+pip list: List installed packages.
+MySQL:
+
+mysql -u <username> -p: Connect to MySQL server.
+CREATE DATABASE <database-name>: Create a new database.
+USE <database-name>: Switch to a specific database.
+SHOW TABLES;: Show tables in the current database.
+SELECT * FROM <table-name>;: Retrieve data from a table.
+INSERT INTO <table-name> (column1, column2, ...) VALUES (value1, value2, ...);: Insert data into a table.
+UPDATE <table-name> SET column1=value1, column2=value2 WHERE condition;: Update existing records.
+DELETE FROM <table-name> WHERE condition;: Delete records from a table.

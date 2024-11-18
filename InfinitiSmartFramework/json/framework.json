@@ -1,0 +1,34 @@
+{
+  "name": "Infiniti Smart Framework",
+  "versions": {
+    "1.0.1": {
+      "scripts": {
+
+        "cli": "ClientUtil.py",
+        "project": "ProjectUtil.py",
+        "settings": "SettingsUtil.py"
+      },
+      "Config": {
+
+        "Simple-Project": {
+
+          "File-Structure": {
+
+            "config.json": "{}",
+            "src": {
+              "python": {
+                "main.py": "import os , time , datetime , string , random , math\n\nprint(\"Hello Worlds!\")"
+              }
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

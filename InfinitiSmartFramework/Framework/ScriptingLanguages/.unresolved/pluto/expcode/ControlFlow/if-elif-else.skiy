@@ -1,0 +1,12 @@
+//check that elif works
+
+var a = 666 * 999 / 199
+
+print(a)
+//print(type(a)) //this is not working
+
+if a < 3: print("a greater than 3")
+elif a==3: print("a equal to 3")
+elif a>=3: print("a greater then or equal to 3")
+elif a<=3: print("a less then or equal to 3")
+else: print("a less than 3")

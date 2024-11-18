@@ -1,0 +1,7 @@
+//create and use functions to show variable locality
+
+def thisfunc(a, b):
+  print(a)
+  print(b)
+
+thisfunc(1,2)

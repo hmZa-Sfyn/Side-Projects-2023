@@ -1,0 +1,10 @@
+
+import importee
+
+importee.hello()
+
+
+var imtest = importee.test()
+
+imtest.trial()
+

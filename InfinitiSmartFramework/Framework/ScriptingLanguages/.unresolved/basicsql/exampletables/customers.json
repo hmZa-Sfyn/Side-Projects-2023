@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "ABC Inc.",
+    "contact": "555-1234"
+  },
+  {
+    "id": 2,
+    "name": "XYZ Ltd.",
+    "contact": "555-5678"
+  }
+]

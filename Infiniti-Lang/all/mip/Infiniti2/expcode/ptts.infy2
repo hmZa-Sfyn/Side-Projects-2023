@@ -1,0 +1,5 @@
+def hamza(let fs):
+    print("hello i am hamza!!!",fs)
+
+
+hamza("hallo")

@@ -1,0 +1,103 @@
+//Notation for Skiylia
+
+//vertical bar implies choices
+// rule > option 1 | option 2 | option 3
+//ie: option 1; or option 2
+
+//Parentheses implies a grouping, speech marks means that must appear exactly
+// rule > (option 1 | option 2) "done"
+//ie: option 1 done
+
+//Asterisk implies what it is attatched to repeats zero or more times
+// rule > "test" "example"*
+//ie: test example example example; or even test
+
+//Plus implies what it is attatched to repeats one or more times
+// rule > "test"+
+//ie: test; or test test test test test
+
+//Question mark implies something appears exactly zero or one times
+// rule > (option 1 | option 2)? "done"
+//ie: option1 "done"; or "done"; option1 option2 "done" not allowed
+
+
+//The entire grammar of Skiylia in EBNF Form
+{Block token}     > ":"
+{End token}       > '\n'
+
+program           > declaration* EOF
+
+declaration       > importdeclaration | classdeclaration | functiondeclaration | vardeclaration | statement
+
+importdeclaration > "import" Identifier
+
+classdeclaration  > "class" Identifier ( "(" Idenitifer ")" )? {Block token} function*
+
+funcdeclaration   > "def" function
+
+function          > Identifier "(" parameters? ")" {Block token} block
+
+parameters        > Identifier ( "," Identifier )*
+
+vardeclaration    > ("var"? Idenitifer ( "=" expression )? ) "\n"+     <=explicit requires "var"
+
+statement         > checkstmt | dostmt | exprstmt | forstmt | ifstmt | interuptstmt | returnstmt | untilstmt | whilestmt | block
+
+block             > {Indent level increases} declaration {End token}+ {token with lower indentation}
+
+checkstmt         > "check" expression ("," expression)? {End token}+
+
+dostmt            > "do" (whilestmt | untilstmt)
+
+exprstmt          > expression {End token}+
+
+forstmt           > "for" (vardeclaration | exprstmt) (("when" | "where") expression)? ("do" expression)? {Block token} statement
+                  | "for" (vardeclaration | exprstmt) "in" Identifier
+//allowed for loop types 1) for x:    2) for x when x<=10:    3) for x when x<10 do x=x+2:
+4) for x do x=x+2:    5) for x in array(1, 2, 3):
+
+ifstmt            > "if" expression {Block token} statement ( ("elif" | "else if") expression {Block token} statement )* ("else" statement)?
+
+interuptstmt      > "break" | "continue"
+
+returnstmt        > "return" expression?
+
+whilestmt         > "while" expression {Block token} statement
+
+untilstmt         > "until" expression {Block token} statement
+
+expression        > assignment
+
+assignment        > (call ".")? Identifier "=" assignment | conditional
+
+conditional       > logicalOr ( ( ( "?" expression ":" ) | "?:" | "??" ) conditional )?
+
+//Logical or has the highest precedence (and is computed last)
+logicalOr         > logicalXor ( ( "|" | "or" ) logicalXor )*
+
+logicalXor        > logicalAnd ( ( "^" | "xor" ) logicalAnd )*
+
+logicalAnd        > equality ( ( ( "&" | "and" ) ) equality )*
+
+equality          > comparison ( ( "!=" | "==" | "!==" | "===" | "!~~" | "~~~" ) comparison )*
+
+//Then comparisons
+comparison        > term ( ( ">" | ">=" | "<" | "<=" | "<=>" ) term )*
+
+//Then terms
+term              > factor ( ( "-" | "+" ) factor )*
+
+//Then factors
+factor            > unary ( ( "*" | "/" ) unary )*
+
+//then unaries
+unary             > ( "!" | "-" )* unary | ( ( "++" | "--" ) call )? | postfix
+
+postfix           > call ( "--" | "++" )?
+
+//And finally call has the lowest precedence (and is computed first)
+call              > literal ( "(" arguments? ")" | "." Identifier)*
+
+arguments         > expression ( "," expression )*
+
+literal           > Number | String | "self" | "super" "." Identifier | "true" | "false" | "null" | "(" expression ")" | Identifier

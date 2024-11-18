@@ -1,0 +1,6 @@
+//create and use functions to show variable locality
+
+def thisfunc(a, b):
+  print("[$a] to the power of [$b] is: "+a^b)
+
+thisfunc(25,200)

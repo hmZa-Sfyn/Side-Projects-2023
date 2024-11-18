@@ -1,0 +1,10 @@
+///calculate the fibonaci sequence using functional calls
+  notice how I am now using multi-line comments
+  very intriguing, don't you think?///
+def fib(n):
+  if n>1:
+    return fib(n-1) + fib(n-2)
+  return n
+
+for var i when i<20:
+  print(fib(i))

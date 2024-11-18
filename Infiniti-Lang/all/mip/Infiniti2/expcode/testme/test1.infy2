@@ -1,0 +1,8 @@
+def abc(x,y,z):
+	res1 = (x*x)+(y*y)+(z*z)
+	res2 = (x**x)+(y**y)-(z**z)*2
+	res3 = res1+res2*(res1*res2)
+
+	print("res1: ",res1," && res2: ",res2," && res3: ",res3)
+
+abc(3,4,5)

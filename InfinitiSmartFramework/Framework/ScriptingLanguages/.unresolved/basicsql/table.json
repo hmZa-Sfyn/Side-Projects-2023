@@ -1,0 +1,27 @@
+[
+  {
+    "name": "John Doe",
+    "age": 35,
+    "city": "New York"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 28,
+    "city": "Los Angeles"
+  },
+  {
+    "name": "Bob Johnson",
+    "age": 42,
+    "city": "Chicago"
+  },
+  {
+    "name": "Emily Williams",
+    "age": 31,
+    "city": "San Francisco"
+  },
+  {
+    "name": "Michael Brown",
+    "age": 25,
+    "city": "Seattle"
+  }
+]

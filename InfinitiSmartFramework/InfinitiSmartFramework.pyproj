@@ -1,0 +1,378 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4e40a0be-8160-4e3f-9aa8-d55f84d388b5</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>InfinitiSmartFramework</Name>
+    <RootNamespace>InfinitiSmartFramework</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Framework\fwFileStructure\" />
+    <Folder Include="Framework\fwFileStructure\powerscript\" />
+    <Folder Include="Framework\fwFileStructure\powerscript\src\" />
+    <Folder Include="Framework\fwFileStructure\smpl\" />
+    <Folder Include="Framework\fwFileStructure\smpl\src\" />
+    <Folder Include="Framework\ScriptingLanguages\" />
+    <Folder Include="Framework\ScriptingLanguages\basicsql\" />
+    <Folder Include="Framework\ScriptingLanguages\supersql\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.github\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.github\workflows\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\info\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\logs\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\logs\refs\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\logs\refs\heads\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\logs\refs\remotes\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\logs\refs\remotes\origin\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\objects\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\objects\info\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\objects\pack\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\refs\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\refs\heads\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\refs\remotes\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\refs\remotes\origin\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.git\refs\tags\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.idea\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.vs\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\FileContentIndex\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\v17\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\binary_search\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\bubble_sort\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\calculator\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\echo\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\fizzbuzz\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\linear_search\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\moreadts\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\rock_paper_scissors\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\examples\selection_sort\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\libs\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\libs\database\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\libs\database\kime\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\libs\math\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\lexer\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\lexer\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\parser\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\parser\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\SideAutomations\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\src\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\powerscript1\tests\" />
+    <Folder Include="Framework\ScriptingLanguages\supersql\src\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\info\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\refs\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\refs\heads\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\refs\remotes\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\refs\remotes\origin\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\objects\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\objects\info\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\objects\pack\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\heads\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\remotes\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\remotes\origin\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\tags\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\common\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\common\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\error\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\error\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\lexer\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\lexer\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\node\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\node\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\parser\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\parser\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\runtime\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\token\" />
+    <Folder Include="Framework\ScriptingLanguages\wozzscript1\token\__pycache__\" />
+    <Folder Include="Framework\Utils\" />
+    <Folder Include="Framework\Utils\AnimationUtil\" />
+    <Folder Include="Framework\Utils\LoggerUtil\" />
+    <Folder Include="Framework\Utils\CommandLineUtil\" />
+    <Folder Include="Framework\Utils\LoaderUtil\" />
+    <Folder Include="Framework\Utils\NewProjectUtil\" />
+    <Folder Include="json\" />
+    <Folder Include="Framework\" />
+    <Folder Include="testing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cmd commands lists.txtxtxtxtxtx.txt" />
+    <Content Include="Framework\fwFileStructure\powerscript\src\conf.json" />
+    <Content Include="Framework\fwFileStructure\powerscript\src\main.psx" />
+    <Content Include="Framework\ScriptingLanguages\basicsql\table.json" />
+    <Content Include="Framework\ScriptingLanguages\conf.json" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.github\workflows\python-app.yml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\config" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\description" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\applypatch-msg.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\commit-msg.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\fsmonitor-watchman.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\post-update.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\pre-applypatch.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\pre-commit.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\pre-merge-commit.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\pre-push.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\pre-rebase.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\pre-receive.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\push-to-checkout.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\sendemail-validate.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\hooks\update.sample" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\index" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\info\exclude" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\logs\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\logs\refs\heads\master" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\objects\pack\pack-4b16b39aa1b886a13451cae1dde0e780b2ad8ed6.idx" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\objects\pack\pack-4b16b39aa1b886a13451cae1dde0e780b2ad8ed6.pack" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\objects\pack\pack-4b16b39aa1b886a13451cae1dde0e780b2ad8ed6.rev" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\packed-refs" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\refs\heads\master" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.git\refs\remotes\origin\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.idea\.gitignore" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.idea\infiniti3.iml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.idea\misc.xml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.idea\modules.xml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.idea\vcs.xml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.idea\workspace.xml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\FileContentIndex\25a515ff-2a43-46a6-a3af-a108aa61e802.vsidx" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\FileContentIndex\38401855-7c06-4e95-9e74-1caf85858d2d.vsidx" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\FileContentIndex\945c56c5-8582-4396-a861-dfffee7f385c.vsidx" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\FileContentIndex\da69c3f2-3c3b-4ece-bc7a-5d323c59371e.vsidx" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\FileContentIndex\e6e63c5c-7ce5-4e33-a9bf-6b4371b5f7f1.vsidx" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\v17\.wsuo" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\infiniti3\v17\Browse.VC.db" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\ProjectSettings.json" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\slnx.sqlite" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\.vs\VSWorkspaceState.json" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\CHANGELOG.md" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\Dockerfile" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\abc.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\def.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\ghi.my" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\jkl.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\mno.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\pqr.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\stu.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\vwx.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\advanced testing\yz.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\binary_search\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\bubble_sort\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\calculator\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\echo\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\fizzbuzz\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\linear_search\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\linear_search\sol02.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\moreadts\loopshashes.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\moreadts\matplot.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\moreadts\rps.infy" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\rock_paper_scissors\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\examples\selection_sort\sol01.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\FHbasic.txt" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\database\funda.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\database\kime\funda.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\datetime.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\fs.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\functools.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\logging.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\math\funda..farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\math\random..farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\mmath.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\os.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\libs\platform.farr" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\LICENSE" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\pyproject.toml" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\README.md" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\config.json" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\.gitignore" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\py.typed" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\__pycache__\base.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\__pycache__\objects.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\lexer\py.typed" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\lexer\__pycache__\base.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\lexer\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\parser\py.typed" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\parser\__pycache__\base.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\parser\__pycache__\nodes.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\parser\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\py.typed" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\__pycache__\constants.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\__pycache__\exceptions.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\src\__pycache__\helpers.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\powerscript1\tests\py.typed" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.gitignore" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\config" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\description" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\applypatch-msg.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\commit-msg.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\fsmonitor-watchman.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\post-update.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\pre-applypatch.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\pre-commit.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\pre-merge-commit.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\pre-push.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\pre-rebase.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\pre-receive.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\push-to-checkout.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\sendemail-validate.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\hooks\update.sample" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\index" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\info\exclude" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\refs\heads\main" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\objects\pack\pack-547ac68c71534519edc24cc01069ede6f1022f46.idx" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\objects\pack\pack-547ac68c71534519edc24cc01069ede6f1022f46.pack" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\objects\pack\pack-547ac68c71534519edc24cc01069ede6f1022f46.rev" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\packed-refs" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\heads\main" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\.git\refs\remotes\origin\HEAD" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\common\__pycache__\constants.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\common\__pycache__\Utils.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\common\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\error\__pycache__\Error.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\lexer\__pycache__\Lexer.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\lexer\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\LICENSE" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\node\__pycache__\NodeType.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\node\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\parser\__pycache__\Parser.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\parser\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\README.md" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\Environment.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\Interpreter.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\NumberOps.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\StringOps.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\Types.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\runtime\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\test.json" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\test.w" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\token\__pycache__\Token.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\token\__pycache__\TokenType.cpython-311.pyc" />
+    <Content Include="Framework\ScriptingLanguages\wozzscript1\token\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="json\framework.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Framework\fwFileStructure\smpl\src\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\ScriptingLanguages\basicsql\bsql.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\constants.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\exceptions.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\helpers.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\base.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\objects.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\interpreter\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\lexer\base.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\lexer\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\main.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\parser\base.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\parser\nodes.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\parser\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\SideAutomations\MapDir.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\SideAutomations\pm.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\src\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\anicolonysimu.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\ant2.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\averedge.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\conftest.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\fson.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\speed.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\test_helpers.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\test_interpreter.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\test_lexer.py" />
+    <Compile Include="Framework\ScriptingLanguages\powerscript1\tests\test_parser.py" />
+    <Compile Include="Framework\ScriptingLanguages\supersql\src\ssql.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\common\constants.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\common\Utils.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\common\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\error\Error.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\lexer\Lexer.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\lexer\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\main.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\node\NodeType.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\node\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\parser\Parser.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\parser\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\runtime\Environment.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\runtime\Interpreter.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\runtime\NumberOps.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\runtime\StringOps.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\runtime\Types.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\runtime\__init__.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\token\Token.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\token\TokenType.py" />
+    <Compile Include="Framework\ScriptingLanguages\wozzscript1\token\__init__.py" />
+    <Compile Include="Framework\Utils\AnimationUtil\LoaderUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\AnimationUtil\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\CommandLineUtil\CommandLineUtil2.py" />
+    <Compile Include="Framework\Utils\CommandLineUtil\CommandLineUtil.py" />
+    <Compile Include="Framework\Utils\CommandLineUtil\__init__.py" />
+    <Compile Include="Framework\Utils\FrameworkcliUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\LoaderUtil\JsonLoader.py" />
+    <Compile Include="Framework\Utils\LoaderUtil\__init__.py" />
+    <Compile Include="Framework\Utils\LoggerUtil\LoggerUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\LoggerUtil\SysLoggerUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\LoggerUtil\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\NewProjectUtil\CopyDirUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\NewProjectUtil\MapDirUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Utils\NewProjectUtil\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

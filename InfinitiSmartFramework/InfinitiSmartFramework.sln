@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "InfinitiSmartFramework", "InfinitiSmartFramework.pyproj", "{4E40A0BE-8160-4E3F-9AA8-D55F84D388B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E40A0BE-8160-4E3F-9AA8-D55F84D388B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E40A0BE-8160-4E3F-9AA8-D55F84D388B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9CC9D9F-087D-44EE-BFC5-A6D415C4F29D}
+	EndGlobalSection
+EndGlobal

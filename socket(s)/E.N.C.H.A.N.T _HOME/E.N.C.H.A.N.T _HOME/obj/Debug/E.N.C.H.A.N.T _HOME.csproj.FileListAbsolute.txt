@@ -1,0 +1,21 @@
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\bin\Debug\E.N.C.H.A.N.T _HOME.exe.config
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\bin\Debug\E.N.C.H.A.N.T _HOME.exe
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\bin\Debug\E.N.C.H.A.N.T _HOME.pdb
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.AssemblyReference.cache
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.SuggestedBindingRedirects.cache
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T__HOME.Form1.resources
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T__HOME.Properties.Resources.resources
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.GenerateResource.cache
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.CoreCompileInputs.cache
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.exe
+D:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.pdb
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\bin\Debug\E.N.C.H.A.N.T _HOME.exe.config
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\bin\Debug\E.N.C.H.A.N.T _HOME.exe
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\bin\Debug\E.N.C.H.A.N.T _HOME.pdb
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.AssemblyReference.cache
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T__HOME.Form1.resources
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T__HOME.Properties.Resources.resources
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.GenerateResource.cache
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.csproj.CoreCompileInputs.cache
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.exe
+G:\enchant\sbin\socket(s)\E.N.C.H.A.N.T _HOME\E.N.C.H.A.N.T _HOME\obj\Debug\E.N.C.H.A.N.T _HOME.pdb

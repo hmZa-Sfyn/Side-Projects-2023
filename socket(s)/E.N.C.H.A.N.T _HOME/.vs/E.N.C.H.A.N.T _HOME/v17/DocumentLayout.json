@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\enchant\\sbin\\socket(s)\\E.N.C.H.A.N.T _HOME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E031C80F-0681-4238-B5E7-E3F884DF6CFB}|E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME.csproj|g:\\enchant\\sbin\\socket(s)\\e.n.c.h.a.n.t _home\\e.n.c.h.a.n.t _home\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E031C80F-0681-4238-B5E7-E3F884DF6CFB}|E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME.csproj|solutionrelative:e.n.c.h.a.n.t _home\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E031C80F-0681-4238-B5E7-E3F884DF6CFB}|E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME.csproj|G:\\enchant\\sbin\\socket(s)\\E.N.C.H.A.N.T _HOME\\e.n.c.h.a.n.t _home\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E031C80F-0681-4238-B5E7-E3F884DF6CFB}|E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME.csproj|solutionrelative:e.n.c.h.a.n.t _home\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\enchant\\sbin\\socket(s)\\E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME\\Form1.cs",
+              "RelativeDocumentMoniker": "E.N.C.H.A.N.T _HOME\\Form1.cs",
+              "ToolTip": "G:\\enchant\\sbin\\socket(s)\\E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME\\Form1.cs",
+              "RelativeToolTip": "E.N.C.H.A.N.T _HOME\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:01:59.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "G:\\enchant\\sbin\\socket(s)\\E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME\\Form1.cs",
+              "RelativeDocumentMoniker": "E.N.C.H.A.N.T _HOME\\Form1.cs",
+              "ToolTip": "G:\\enchant\\sbin\\socket(s)\\E.N.C.H.A.N.T _HOME\\E.N.C.H.A.N.T _HOME\\Form1.cs [Design]",
+              "RelativeToolTip": "E.N.C.H.A.N.T _HOME\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:01:59.517Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
